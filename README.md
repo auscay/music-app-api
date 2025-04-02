@@ -7,8 +7,8 @@ The **Music Booking App API** is a RESTful web service designed to handle artist
 ## ⚙️ Installation & Setup
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/auscay/music-booking-api.git
-cd music-booking-api
+git clone https://github.com/auscay/music-app-api.git
+cd music-app-api
 ```
 
 ### 2️⃣ Install Dependencies
@@ -59,10 +59,8 @@ src/
  ├── repository/       # Database operations
  ├── routes/           # API routes
  ├── database/models/  # Mongoose schemas
- ├── middleware/       # Security and authentication middleware
  ├── config/           # Configuration files
- ├── app.ts            # Express app setup
- └── server.ts         # Server entry point
+ └── index.ts         # Server entry point
 ```
 
 ## 📖 API Endpoints
